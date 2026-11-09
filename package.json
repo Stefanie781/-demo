@@ -1,0 +1,14 @@
+{
+  "name": "asset-visual-demo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "web"
+  ],
+  "scripts": {
+    "dev": "npm --prefix web run dev",
+    "build": "npm --prefix web run build",
+    "typecheck": "npm --prefix web run typecheck",
+    "preview": "npm --prefix web run preview"
+  }
+}
